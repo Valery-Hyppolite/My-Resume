@@ -1,0 +1,149 @@
+
+/* Style the body */
+body {
+    font-family: 'EB Garamond', serif;
+    background-color: #f8ede3;
+    margin: 5rem 5rem;
+}
+/* Style the h1 element */
+
+h1 {
+    font-size: 100px;
+}
+
+/* the size text that is below my name in the header section */
+.header p {
+    font-size: 35px;
+
+}
+
+h2, h3 {
+    color: #214252
+}
+/* Style the all p element font size*/
+p {
+    font-size: large;
+}
+
+/* targeting the first p in the expereince section to decrease the space btween it and the seond p */
+.tittle-main .p-exp {
+    margin-bottom: 0.1rem;
+    word-spacing: 3px ;
+    font-style: italic;
+
+    
+}
+
+/* targeting the p element in the expereince section of the web */
+.tittle-main .p2-exp{
+    word-spacing: 3px;
+    font-style: italic;
+    font-size: 15px;
+
+}
+
+.tittle-main h2 {
+    margin-bottom: 1rem;
+}
+
+
+/* style for banner*/
+.header {
+    background-color: #214252;
+    font-style: oblique;
+    padding: 150px;
+    text-overflow: ellipsis;
+    color: black;
+    margin-bottom: 2rem;
+    outline-style: inset;
+    outline-color: #a0c1bb;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+}
+
+/* the summary of my resume section */
+div.aboutme {
+    background-color: non;
+    width: 400;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 1rem;
+    margin: 20px;
+}
+
+/* certification css element with flex
+to create a flex div container, the display flex must be diclare first in the parent div and then the child div can be style after */
+
+.flex-container {
+    display: -ms-flexbox;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* child div of flex .flex-container */
+.flex-container div {
+    background-color: #a0c1bb;
+    font-family: 'STIX Two Text', serif;
+    font-size: 15px;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 20px;
+    margin: 10px;
+
+}
+
+/* TARGETTING THE VOLUTEER AND LEADERSHIP SECTION, DIVIDING IT INT TWO BOXEX USINF FLEX-BOX */
+
+/* the div class call mainrow which set both the skill class div and the title div inside a flex container. the mainrow div is the parent, the skill and title-main are the child element  */
+.mainrow {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+/* the skills section of my page */
+.skills {
+    display: -ms-flex 20%;
+    flex: 20%;
+    position: sticky;
+    background-color: #a0c1bb;
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    color: black;
+    padding: 20px;
+}
+
+/* targeting the tilles i the skill section of the web to make them italic */
+.skills h3 {
+    font-style: italic;
+    font-weight: lighter;
+    font-size: 1.5rem;
+}
+
+/* the main section that contain my job history */
+.tittle-main {
+    display: -ms-flex 75%;
+    flex: 75%;
+    background-color: #f8ede3;
+    padding: 20px;
+}
+
+/* bar hr section  */
+
+hr {
+    border-top: 3x double #214252;
+    height: 5px;
+}
+
+/* footer section */
+.footer {
+    background-color: #214252;
+    padding: 30px;
+    margin-top: 1rem;
+    text-align: center;
+    color: black;
+}
+
+.footer h2 {
+    color: black;
+}
+
