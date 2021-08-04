@@ -51,11 +51,10 @@ p {
 .header {
     background-color: #214252;
     font-style: oblique;
-    padding: 150px;
-    text-overflow: ellipsis;
-    color: black;
+    padding: 100px;
+    text-align: center;
+    color: #f8ede3;
     margin-bottom: 2rem;
-    outline-style: inset;
     outline-color: #a0c1bb;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     
