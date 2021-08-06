@@ -3,7 +3,7 @@
 body {
     font-family: 'EB Garamond', serif;
     background-color: #f8ede3;
-    margin: 5rem 5rem;
+    margin: 80px 80px;
 }
 @media  screen and (max-with: 365px) {
    body {
