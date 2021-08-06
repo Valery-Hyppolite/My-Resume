@@ -1,13 +1,13 @@
-
 /* Style the body */
 body {
     font-family: 'EB Garamond', serif;
     background-color: #f8ede3;
-    margin: 16px 16px;
+    margin: 1rem 1rem;
 }
+
 @media  screen and (max-with: 365px) {
    body {
-       margin: 0.5rem;
+       margin: 1.rem;
    }
 }
 /* Style the h1 element */
@@ -33,7 +33,8 @@ h1 {
     .header p {
         font-size: 2.5rem;
     }
-
+    
+}
 h2, h3 {
     color: #214252
 }
@@ -78,6 +79,19 @@ p {
     
 }
 
+@media  screen and (max-width: 1144px) {
+    .header {
+        text-overflow: ellipsis;
+        text-size-adjust: 30%;
+    }
+}
+
+@media  screen and (max-width: 365px) {
+    .header {
+        padding: 80px;
+    }
+}
+
 /* the summary of my resume section */
 div.aboutme {
     background-color: non;
@@ -96,7 +110,7 @@ to create a flex div container, the display flex must be diclare first in the pa
     display: -ms-flexbox;
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: center;
 }
 
 /* child div of flex .flex-container */
@@ -160,8 +174,8 @@ hr {
     background-color: #214252;
     padding: 30px;
     margin-top: 1rem;
-    text-align: center;
     border-radius: 1rem;
+    text-align: center;
     color: black;
 }
 
@@ -184,8 +198,3 @@ hr {
       }
     }
 
-    @media  screen and (max-width: 1144px) {
-        .header {
-            text-align: center;
-        }
-    }
