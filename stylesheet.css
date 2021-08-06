@@ -95,7 +95,7 @@ to create a flex div container, the display flex must be diclare first in the pa
     display: -ms-flexbox;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
 }
 
 /* child div of flex .flex-container */
