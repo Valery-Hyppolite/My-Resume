@@ -60,6 +60,14 @@ p {
 
 }
 
+/* targeting the contibution p tittle to reduce the bottom space btw the world below it */
+.p-contribution {
+    margin-bottom: 0.1rem;
+    word-spacing: 3px;
+    font-style: italic;
+    font-size: 15px;
+}
+
 .tittle-main h2 {
     margin-bottom: 1rem;
 }
