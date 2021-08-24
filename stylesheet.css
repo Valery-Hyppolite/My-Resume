@@ -62,7 +62,7 @@ p {
 
 /* targeting the contibution p tittle to reduce the bottom space btw the world below it */
 .p-contribution {
-    margin-bottom: 0.1rem;
+    margin-bottom: 0;
     word-spacing: 3px;
     font-style: italic;
     font-size: 15px;
